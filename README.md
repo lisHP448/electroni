@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        /* Fondo animado */
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
@@ -22,8 +20,6 @@
             50% { background-position: 100% 50%; }
             100% { background-position: 0% 50%; }
         }
-
-        /* Encabezado */
         header {
             background-color: rgba(0, 0, 0, 0.7);
             color: #fff;
@@ -37,8 +33,6 @@
         header p {
             font-size: 1.2rem;
         }
-
-        /* Secciones */
         .section {
             padding: 2rem;
             max-width: 900px;
@@ -46,8 +40,6 @@
             color: #333;
             text-align: center;
         }
-
-        /* Tarjetas de proyectos */
         .projects {
             display: flex;
             flex-wrap: wrap;
@@ -74,6 +66,19 @@
         .project p {
             color: #666;
         }
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .project a:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -86,22 +91,21 @@
         <div class="projects">
             <div class="project">
                 <h3>Calculadora Web</h3>
-                <p>Una calculadora Web interactiva construida con html, css y javaScript, permite realizar operaciones basicas y tiene un diseño atractivo.</p>
-                href="https://github.com/tu-usuario/proyecto1" target="_blank" style="color: #007bff; text-decoration: none;">Ver Proyecto en GitHub</a>
+                <p>Una calculadora web interactiva construida con HTML, CSS y JavaScript. Permite realizar operaciones básicas y tiene un diseño atractivo.</p>
+                <a href="https://github.com/tu-usuario/proyecto1" target="_blank">Ver Proyecto en GitHub</a>
             </div>
             <div class="project">
-                <h3>Pagina de Portafolio</h3>
-                <p>Un portafolio personal hecho con html, css y bootstrap para mostrar nuestras habilidades y proyectos, Incluye una seccion de contacto.</p>
-              href="https://tu-usuario.github.io/proyecto2" target="_blank" style="color: #007bff; text-decoration: none;">Ver Proyecto en Vivo</a>
+                <h3>Página de Portafolio</h3>
+                <p>Un portafolio personal hecho con HTML, CSS y Bootstrap para mostrar mis habilidades y proyectos. Incluye una sección de contacto.</p>
+                <a href="https://tu-usuario.github.io/proyecto2" target="_blank">Ver Proyecto en Vivo</a>
             </div>
             <div class="project">
                 <h3>Aplicación de Notas</h3>
                 <p>Aplicación de notas sencilla con almacenamiento local. Permite agregar, editar y eliminar notas. Desarrollada con JavaScript y CSS.</p>
-                href="https://github.com/tu-usuario/proyecto3" target="_blank" style="color: #007bff; text-decoration: none;">Ver Código en GitHub</a>
+                <a href="https://github.com/tu-usuario/proyecto3" target="_blank">Ver Código en GitHub</a>
             </div>
         </div>
     </section>
 </body>
 </html>
-
 
