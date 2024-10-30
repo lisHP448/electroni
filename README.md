@@ -78,23 +78,26 @@
 </head>
 <body>
     <header>
-        <h1>Hola, soy [Tu Nombre]</h1>
+        <h1>Hola y Bienvenidos</h1>
         <p>Desarrollador Web | Ingeniero Electrónico | Apasionado de la Tecnología</p>
     </header>
     <section class="section">
         <h2>Proyectos</h2>
         <div class="projects">
             <div class="project">
-                <h3>Proyecto 1</h3>
-                <p>Descripción breve del proyecto.</p>
+                <h3>Calculadora Web</h3>
+                <p>Una calculadora Web interactiva construida con html, css y javaScript, permite realizar operaciones basicas y tiene un diseño atractivo.</p>
+                href="https://github.com/tu-usuario/proyecto1" target="_blank" style="color: #007bff; text-decoration: none;">Ver Proyecto en GitHub</a>
             </div>
             <div class="project">
-                <h3>Proyecto 2</h3>
-                <p>Descripción breve del proyecto.</p>
+                <h3>Pagina de Portafolio</h3>
+                <p>Un portafolio personal hecho con html, css y bootstrap para mostrar nuestras habilidades y proyectos, Incluye una seccion de contacto.</p>
+              href="https://tu-usuario.github.io/proyecto2" target="_blank" style="color: #007bff; text-decoration: none;">Ver Proyecto en Vivo</a>
             </div>
             <div class="project">
-                <h3>Proyecto 3</h3>
-                <p>Descripción breve del proyecto.</p>
+                <h3>Aplicación de Notas</h3>
+                <p>Aplicación de notas sencilla con almacenamiento local. Permite agregar, editar y eliminar notas. Desarrollada con JavaScript y CSS.</p>
+                href="https://github.com/tu-usuario/proyecto3" target="_blank" style="color: #007bff; text-decoration: none;">Ver Código en GitHub</a>
             </div>
         </div>
     </section>
